@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}
+Создание студента
+{% endblock %}
+{% block main %}
+<h1 class="display-4 text-black-50 mb-5">Создание студента</h1>
+<form method="post">
+    <input type="text" name="name" placeholder="Имя">
+    <button type="submit" class="btn btn-primary btn-sm my-2">Сохранить</button>
+</form>
+{% endblock %}

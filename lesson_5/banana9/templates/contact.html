@@ -1,0 +1,15 @@
+
+{% extends "base.html" %}
+{% block title %}Contact{% endblock %}
+{% block main %}
+    <h1 style="color: dodgerblue">Отправить нам сообщение</h1>
+    <form method="post">
+        <input type="text" name="title" placeholder="Заголовок"><br><br>
+        <input type="text" name="text" placeholder="Текст сообщения"><br><br>
+        <input type="email" name="email" placeholder="email"><br><br>
+<!--        <a href="#" class="btn btn-primary btn-lg">Call to action!</a>-->
+		<button type="submit" class="btn btn-primary btn-sm my-2">Отправить</button>
+    </form>
+{% endblock main%}
+
+
